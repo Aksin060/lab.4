@@ -1,0 +1,9 @@
+import random
+
+n = 10
+
+random_numbers = [random.uniform(3, 12) for _ in range(n)]
+
+print("Təsadüfi ədədlər siyahısı:")
+for number in random_numbers:
+    print(round(number, 2))
